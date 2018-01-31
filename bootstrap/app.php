@@ -41,6 +41,11 @@ $app->singleton(
     App\Exceptions\Handler::class
 );
 
+/**
+ * 自定义引入文件
+ */
+ require __DIR__ . '/helpers.php';
+
 /*
 |--------------------------------------------------------------------------
 | Return The Application
